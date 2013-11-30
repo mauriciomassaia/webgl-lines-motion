@@ -1,0 +1,49 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	color: #333;
+	font-family: Helvetica, Arial, Sans-serif;
+}
+
+#container
+{
+	margin: 0;
+	padding: 0;
+}
+
+#info
+{
+	position: absolute;
+	z-index: 10;
+	top: 0px;
+	left: 50%;
+	color: #fff;
+	font-size: 14px;
+}
+
+#info b
+{
+	font-size: 18px;
+}
+
+#info ul
+{
+	list-style: none;
+	margin-left: -50%;
+	display: block;
+	width: 110%;
+	padding: 0;
+
+}
+
+#info ul li
+{
+	display: inline-block;
+	padding: 10px;
+	margin: 0;
+}
