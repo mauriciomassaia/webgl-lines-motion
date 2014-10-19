@@ -1,37 +1,39 @@
 <html>
-	<head>
-		<title>WebGL | Lines Motion</title>
-		<meta property="og:image" content="http://mmassaia.com/lab/webgl/lines_motion/images/fb.jpg"/>
-		<!-- build:remove -->
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<!-- /build -->
-		<!-- build:style min -->
-		<!-- /build -->
-	</head>
-	<body>
-		<div id="container"></div>
-		<div id="info">
-			<ul>
-				<li><b>r</b> = Rotate / Freeze (mesh.rotation.x)</li>
-				<li><b>t</b> = Freeze (0, 90, 180, 270) (mesh.rotation.x)</li>
-			</ul>
-		</div>
-		
-		<!-- build:script libs -->
-		<script type="text/javascript" src="js/libs/zepto.min.js"></script>
-		<script type="text/javascript" src="js/libs/three.min.js"></script>
-		<!-- /build -->
+  <head>
+    <title>WebGL | Lines Motion</title>
+    <meta property="og:image" content="http://mmassaia.com/lab/webgl/lines_motion/images/fb.jpg"/>
+    <!-- build:remove -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- /build -->
+    <!-- build:style min -->
+    <!-- /build -->
+  </head>
+  <body>
+    <div id="container"></div>
+    <div id="info">
+      <ul>
+        <li><b>Click</b> - enable/disable mouse interaction.</li>
+        <li><b>R</b> - start / stop the camera rotation.</li>
+        <li><b>H</b> - show/hide controller.</li>
+      </ul>
+    </div>
+    
+    <!-- build:script libs -->
+    <script type="text/javascript" src="js/libs/zepto.min.js"></script>
+    <script type="text/javascript" src="js/libs/three.min.js"></script>
+    <script type="text/javascript" src="js/libs/dat.gui.min.js"></script>
+    <!-- /build -->
 
-		<!-- build:remove -->
-		<script type="text/javascript" src="js/script.js"></script>
-		<!-- /build -->
-		
-		<!-- build:script min --><!-- /build -->
-
-		<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			_uacct = "UA-432528-1";
-			urchinTracker();
-		</script>
-	</body>
+    <!-- build:remove -->
+    <script type="text/javascript" src="js/circular-motion.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- /build -->
+    
+    <!-- build:script min --><!-- /build -->
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      _uacct = "UA-432528-1";
+      urchinTracker();
+    </script>
+  </body>
 </html>

@@ -1,5 +1,5 @@
 {
-  "name": "html_grunt_template",
+  "name": "webgl-lines-motion",
   "version": "0.0.1",
   "description": "Test with grunt to minify js, css and images",
   "main": "index.js",

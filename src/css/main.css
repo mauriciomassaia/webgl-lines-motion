@@ -1,42 +1,44 @@
-html, body, #container
-{
+html, body, #container {
 	margin: 0;
 	padding: 0;
 }
 
-body
-{
+body {
 	color: #333;
 	font-family: Helvetica, Arial, Sans-serif;
 }
 
-#info
-{
-	position: absolute;
-	z-index: 10;
-	top: 0px;
-	left: 50%;
-	color: #fff;
-	font-size: 14px;
+#info {
+	position: fixed;
+	z-index: 1;
+	bottom: 0px;
+	left: 0;
+	color: #222;
+	font-size: 12px;
+	display: block;
+	background: #fff;
+	padding: 10px 10px 10px 0;
+	width: 100%;
+	opacity: 1;
+	-webkit-transition: opacity 0.4s linear;
+	-o-transition: opacity 0.4s linear;
+	-moz-transition: opacity 0.4s linear;
+	transition: opacity 0.4s linear;
 }
 
-#info b
-{
+#info b {
 	font-size: 18px;
 }
 
-#info ul
-{
+#info ul {
 	list-style: none;
-	margin-left: -50%;
 	display: block;
-	width: 110%;
 	padding: 0;
+	margin: 0;
 }
 
-#info ul li
-{
+#info ul li {
 	display: inline-block;
-	padding: 20;
-	margin: 0;
+	padding: 0;
+	margin: 0 0 0 10px;
 }
