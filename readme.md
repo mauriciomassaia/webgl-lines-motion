@@ -1,21 +1,5 @@
-# HTML simple build
+# WebGL - Lines Motion
 
-Grunt and Grunt plugins are installed and managed via npm, the Node.js package manager.
+WebGL experiment using Threejs with lines and HSB colors.
 
-
-to download all node modules, run :
-$npm install
-
-
-to compress js, css, images and optimize the html, run:
-$grunt
-
-
-to run independent tasks check the registered tasks in Gruntfile.js
-
-
-
-
-
-http://nodejs.org/
-http://gruntjs.com/
+Check the [live version](http://mmassaia.com/lab/webgl/lines_motion/)
